@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+html {
+    scroll-behavior: smooth;
+      }
+
+body {
+    background-color: #2a2a2a;
+      }
+
+li {
+    list-style-type: none;
+    margin-top: 12px;
+    }
+
+#main-section a {
+    text-decoration: none;
+    color: #000;
+                 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+    margin:0 auto;
+     }
+
+#main-section {
+   height: 570px;
+   
+    background: red url('../Image/McLaren_570sSpider.jpg') no-repeat center/cover;
+               }
+
+.main-content{
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    text-align: center;
+    margin-top: 160px;
+              }
+
+
+.tx-red {
+    margin:27px 0;
+    color: red;
+         }
+
+.tx-orchid {
+    margin:27px 0;
+    color:#608000;
+            }
+
+.tx-black {
+    max-width: 360px;
+    margin:27px 0;
+    color:#000;
+           }
+
+
+#s-one {
+    display: flex;
+    justify-content: space-between;
+    gap:3px;
+    flex-wrap: wrap;
+        }
+
+#s-one .container {
+    width: 360px;
+    height: 490px;
+    /* border: 1px solid red; */
+    background-color: #000;
+
+    margin:30px 12px;
+
+    overflow: hidden;
+                   }
+
+.box-image img {
+    width: 100%;
+    transition: all .5s;
+                }
+
+.box-image img:hover {
+    scale: 1.25;
+                      }
+.box-body {
+    margin-left: 18px;
+           }
+
+.box-orchid {
+    color: #608000;
+    padding-left: 21px;
+    padding: 21px 0;
+             }
+
+.box-white {
+    color:#fff;
+    padding-left: 9px;
+    padding: 21px 0;
+    padding-bottom: 36px;
+            }
+
+.box a {
+    padding:12px 21px;
+    
+    text-decoration: none;
+    color:#fff;
+    background-color: #608000;
+
+    transition: all .5s;
+        }
+.box a:hover {
+   background-color: #000;
+   color: #608000;
+              }
+
+.s-ast {
+    height: 600px;
+    background: red url("../Image/Aston_Martin_DB12.jpg") no-repeat center/cover;
+
+
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+        }
+   .sast-tx-red {
+    color:red;
+    padding: 25px;
+                 }
+      .sast-tx-white {
+        max-width: 360px;
+    color: #fff;
+    padding-bottom: 25px;
+                      }
+         .sast-a {
+    text-decoration: none;
+    /* border: 2px solid red; */
+    padding:6px 21px;
+    color: #fff;
+    background-color: #608000;
+    transition: all .5s;
+                  }
+            .sast-a:hover {
+    color:#608000;
+    background-color: transparent;
+                           }
+                .s-ast {
+                            position: relative;
+                    
+                        }
+                    .s-ast .astonmartin {
+                            position: absolute;
+                             bottom: 42px;
+                             right: 187px;
+                                         }           
+
+
+
+            .s-ben {
+    height: 600px;
+    background: red url("../Image/Bentley_mulsanne.jpg") no-repeat center/cover;
+
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+                    }
+         .sben-tx-red {
+    color:red;
+    padding: 25px;
+                       }
+      .sben-tx-white {
+        max-width: 360px;
+    color: #fff;
+    padding-bottom: 25px;
+                      }
+   .sben-a {
+    text-decoration: none;
+    /* border: 2px solid red; */
+    padding:6px 21px;
+    color: #fff;
+    background-color: #608000;
+    transition: all .5s;
+            }
+.sben-a:hover {
+    color:#608000;
+    background-color: transparent;
+               }
+    .s-ben {
+                position: relative;
+            }
+        .s-ben .bentley {
+                position: absolute;
+                 top: 250px;
+                 right: 60px;
+                         }           
+
+
+.s-chr {
+    height: 600px;
+    background: red url("../Image/Chrysler_300.jpg") no-repeat center/cover;
+
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+        }
+   .schr-tx-red {
+    color:red;
+    padding: 25px;
+                 }
+      .schr-tx-white {
+        max-width: 360px;
+    color: #fff;
+    padding-bottom: 25px;
+                      }
+          .schr-a {
+    text-decoration: none;
+    /* border: 2px solid red; */
+    padding:6px 21px;
+    color: #fff;
+    background-color: #608000;
+    transition: all .5s;
+                   }
+             .schr-a:hover {
+    color:#608000;
+    background-color: transparent;
+                            }
+                .s-chr {
+                                position: relative;
+                        }
+                    .s-chr .chrysler {
+                                position: absolute;
+                                 top: 9px;
+                                 left: 10px;
+                                      }             
+                
+
+
+
+             .s-gmc {
+    height: 600px;
+    background: red url("../Image/GMC-Sierra_Denali.jpg") no-repeat center/cover;
+
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+                     }
+          .sgmc-tx-red {
+    color:red;
+    padding: 25px;
+                        }
+       .sgmc-tx-white {
+        max-width: 360px;
+    color: #fff;
+    padding-bottom: 25px;
+                       }
+    .sgmc-a {
+    text-decoration: none;
+    /* border: 2px solid red; */
+    padding:6px 21px;
+    color: #fff;
+    background-color: #608000;
+    transition: all .5s;
+             }
+.sgmc-a:hover {
+    color:#608000;
+    background-color: transparent;
+               }
+    .s-gmc {
+                position: relative;
+            }
+        .s-gmc .gmc {
+                position: absolute;
+                 top: 9px;
+                 right: 10px;
+                     }             
+
+
+.s-mst {
+    height: 600px;
+    background: red url("../Image/Maserati.jpg") no-repeat center/cover;
+
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+        }
+   .smst-tx-red {
+    color:red;
+    padding: 25px;
+                 }
+      .smst-tx-white {
+        max-width: 360px;
+    color: #fff;
+    padding-bottom: 25px;
+                      }
+         .smst-a {
+    text-decoration: none;
+    /* border: 2px solid red; */
+    padding:6px 21px;
+    color: #fff;
+    background-color: #608000;
+    transition: all .5s;
+                  }
+            .smst-a:hover {
+    color:#608000;
+    background-color: transparent;
+                           }
+                .s-mst {
+                    position: relative;
+                        }
+                  .s-mst .maserati {
+                    position: absolute;
+                     top: 30px;
+                     right: 30px;
+                                    }                        
+
+
+            .s-mcl {
+    height: 600px;
+    background: red url("../Image/McLaren_570sSpider.jpg") no-repeat center/cover;
+
+background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+                    }
+         .smcl-tx-red {
+    color:red;
+    padding: 25px;
+                       }
+      .smcl-tx-white {
+        max-width: 360px;
+    color: #fff;
+    padding-bottom: 25px;
+                      }
+   .smcl-a {
+    text-decoration: none;
+    /* border: 2px solid red; */
+    padding:6px 21px;
+    color: #fff;
+    background-color: #608000;
+    transition: all .5s;
+            }
+.smcl-a:hover {
+    color:#608000;
+    background-color: transparent;
+               }
+               .s-mcl {
+                position: relative;
+                       }
+                       .s-mcl .mclaren {
+                  position: absolute;
+                  top: 60px;
+                  right: 30px;
+                                        }
+
+
+.s-mgn {
+    height: 600px;
+    background: red url("../Image/Morgan-Aero-8.jpg") no-repeat center/cover;
+
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+        }
+   .smgn-tx-red {
+    color:red;
+    padding: 25px;
+                 }
+        .smgn-tx-white {
+           max-width: 360px; 
+    color: #fff;
+    padding-bottom: 25px;
+                        }
+             .smgn-a {
+    text-decoration: none;
+    /* border: 2px solid red; */
+    padding:6px 21px;
+    color: #fff;
+    background-color: #608000;
+    transition: all .5s;
+                      }
+                .smgn-a:hover {
+    color:#608000;
+    background-color: transparent;
+                               }
+             .s-mgn {
+                position: relative;
+                     }  
+          .s-mgn .morgan {
+            position: absolute;
+            right: 360px;
+            bottom: 165px;
+                          }                   
+
+ button {
+    position: relative;
+    
+         }   
+     button a {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    position: fixed;
+    color: #efefef;
+    background-color: #608000;
+
+    padding: 9px 9px;
+               }
